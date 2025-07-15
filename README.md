@@ -13,27 +13,7 @@ git clone https://github.com/brinaa8/IntrusionDetection_QUBO
 cd IntrusionDetection_QUBO
 bash setup.sh
 
-## Project Structure
-
-TFM-QUBO-IntrusionDetection/
-├── notebooks/
-│ └── main.ipynb # Main notebook
-├── src/
-│ ├── qubo_utils.py # Functions for QUBO construction and sampling
-│ └── svm_utils.py # Classical SVM baseline and preprocessing
-├── data/
-│ └── README_data.md # Instructions to download NSL-KDD
-├── figures/
-│ └── decision_boundaries.png # Example plots of decision boundaries
-├── results/
-│ └── metrics_summary.txt # Sample output of experiments
-├── anexos/
-│ └── svm_qubo_derivation.pdf # Mathematical derivation of SVM → QUBO
-├── README.md
-├── requirements.txt
-└── LICENSE
-
-DATASET:
+## Dataset
 Due to license constraints, the NSL-KDD dataset is not included in this repository.
 Download it from https://www.kaggle.com/datasets/hassan06/nslkdd
 Place the following files in data/:
